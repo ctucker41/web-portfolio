@@ -26,9 +26,7 @@ Source code managed with Git and hosted on GitHub.
 ## Features
 - Responsive design with smooth animations
 - Interactive tech stack scroller showcasing my skills
-- Sections for Experience, Projects, and Contact info
-- Dark mode support (if applicable)
-- SEO optimized and fast loading
+- Sections for Experience, About Me, Resume and Contact info
 
 ---
 
