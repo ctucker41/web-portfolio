@@ -18,7 +18,7 @@ export default function TopRightMenu() {
             initial={{ opacity: 0, y: -50}}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}
-            className="w-[600px] h-[80px] fixed top-4 right-10 bg-gray-800 flex items-center justify-center border-slate-600 border-[1px]"
+            className="w-[600px] h-[80px] fixed top-4 right-10 bg-gray-800 flex items-center justify-center border-slate-600 border-[1px] z-50"
         >
 
             <CardContent className="p-0 flex flex-row items-center justify-center gap-4">
