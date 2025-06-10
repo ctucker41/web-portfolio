@@ -13,17 +13,17 @@ const AboutMe = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}>
 
-            <Card className="relative bg-gray-900 border border-slate-600 max-w-3xl w-full p-8">
+            <Card id="about" className="relative bg-gray-900 border border-slate-600 scroll-mt-24 max-w-3xl w-full p-8">
 
                 <div className="absolute -top-8 left-8">
-                    <Avatar className="w-24 h-24 border-4 border-gray-900">
+                    <Avatar className="w-32 h-32 border-4 border-gray-900">
                         <AvatarImage src="https://github.com/shadcn.png" alt="Christian Tucker" />
                         <AvatarFallback>CT</AvatarFallback>
                     </Avatar>
                 </div>
 
                 <CardContent className="mt-8">
-                    <h2 className="text-3xl font-bold text-purple-300 mb-4">
+                    <h2 className="text-3xl font-bold text-purple-300 mb-4 flex ml-28">
                         About Me
                     </h2>
                     <p className="text-white text-lg leading-relaxed">
