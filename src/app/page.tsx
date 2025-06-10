@@ -19,6 +19,7 @@ import SectionOne from "@/components/ui/sectionOne"
 import Experience from "@/components/ui/Experience"
 import AboutMe from "@/components/ui/AboutMe"
 import ContactMe from "@/components/ui/ContactMe"
+import Resume from "@/components/ui/Resume"
 
 
 // Fix up the neon text in your IntroText and make it look nicer
@@ -49,6 +50,7 @@ export default function Home() {
               <SectionOne />
               <Experience />
               <AboutMe />
+              <Resume />
 
 
           </main>
