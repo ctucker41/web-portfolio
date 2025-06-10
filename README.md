@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Christian Tucker's Portfolio Website
+
+![Work in Progress](https://img.shields.io/badge/status-WIP-yellow)
+
+---
+
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## About
+This is my personal portfolio website project showcasing some of my skills and experience as a student software developer.  
+Built with React, Next.js, Node.js, Tailwind CSS, TypeScript, Framer Motion and shadcn/ui components.  
+The website highlights technologies I'm proficient in and acts as a professional front for employers to learn more about me.  
+Source code managed with Git and hosted on GitHub.  
+
+---
+
+## Features
+- Responsive design with smooth animations
+- Interactive tech stack scroller showcasing my skills
+- Sections for Experience, About Me, Resume and Contact info
+
+---
+
+## Tech Stack
+- React (TypeScript)
+- Next.js
+- Node.js
+- Tailwind CSS
+- Framer Motion for animations
+- Shadcn/UI library
+- Hosted on Vercel (when deployed)
+- Version control with Git and GitHub
+
+---
 
 ## Getting Started
-
-First, run the development server:
+To run this project locally:
 
 ```bash
+git clone https://github.com/ctucker41/web-portfolio.git
+cd web-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
+Feel free to open issues or submit pull requests if you'd like to suggest improvements or fixes!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+Christian Tucker  
+Email: ctuckercareers@yahoo.com  
+GitHub: https://github.com/ctucker41  
+LinkedIn: www.linkedin.com/in/christian-tucker-55b423196  
