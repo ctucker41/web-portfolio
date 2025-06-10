@@ -18,6 +18,8 @@ import IntroText from "@/components/ui/IntroText";
 import SectionOne from "@/components/ui/sectionOne"
 import Experience from "@/components/ui/Experience"
 import AboutMe from "@/components/ui/AboutMe"
+import ContactMe from "@/components/ui/ContactMe"
+import Resume from "@/components/ui/Resume"
 
 
 // Fix up the neon text in your IntroText and make it look nicer
@@ -48,17 +50,17 @@ export default function Home() {
               <SectionOne />
               <Experience />
               <AboutMe />
+              <Resume />
 
 
           </main>
 
-          <footer id="contact" className="flex flex-col mt-20 min-h-[150px] bg-gray-900 bg-opacity-75">
+          <footer>
 
-              <h2 className="text-2xl flex justify-center items-center text-purple-500 font-bold mb-4">Contact Me</h2>
-
-              <p className="flex justify-center items-center text-purple-300 mb-4">Phone Number: (123)-123-1234</p>
+              <ContactMe />
 
           </footer>
+
       </div>
   );
 }

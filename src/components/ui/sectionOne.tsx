@@ -17,7 +17,7 @@ export default function SectionOne() {
             <Card className="p-8 h-[800px] w-[600px] bg-gray-900 border-slate-600 border-[1px]">
 
                 <h2 className="text-2xl flex justify-center items-center text-purple-300 font-bold mb-4">Lorem Ipsum Section</h2>
-                <p className="mt-20 mb-4 text-purple-300 flex justify-center">
+                <p className="mt-20 mb-4 text-white flex justify-center">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.
@@ -36,7 +36,7 @@ export default function SectionOne() {
                 <Card className="p-8 flex-col w-[800px] bg-gray-900 border-slate-600 border-[1px]">
 
                     <h2 className="text-2xl flex justify-center items-center text-purple-300 font-bold mb-4">Lorem Ipsum Section</h2>
-                    <p className="mt-20 mb-4 text-purple-300 flex justify-center">
+                    <p className="mt-20 mb-4 text-white flex justify-center">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.
@@ -53,7 +53,7 @@ export default function SectionOne() {
                 <Card className="p-8 flex-col w-[800px] bg-gray-900 border-slate-600 border-[1px]">
 
                     <h2 className="text-2xl flex justify-center items-center text-purple-300 font-bold mb-4">Lorem Ipsum Section</h2>
-                    <p className="mt-20 mb-4 text-purple-300 flex justify-center">
+                    <p className="mt-20 mb-4 text-white flex justify-center">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula sed pretium tristique, nunc magna sagittis risus, sed vulputate magna nunc non sem.

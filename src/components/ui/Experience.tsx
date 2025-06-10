@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import TechScroller from "@/components/ui/TechScroller";
+import { motion } from "framer-motion";
 
 const Experience: React.FC = () => {
     const [hoveredFirst, setHoveredFirst] = useState(false);
@@ -10,6 +11,10 @@ const Experience: React.FC = () => {
 
     return (
         <section>
+            <motion.div
+                initial={{ opacity: 0, y: -50}}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}>
 
             <h2 id="experience" className="flex justify-center items-center mt-48 scroll-mt-24 text-2xl text-white">
                 What do I have&nbsp;
@@ -83,6 +88,7 @@ const Experience: React.FC = () => {
                     </div>
                 </div>
             </div>
+    </motion.div>
         </section>
     );
 };
