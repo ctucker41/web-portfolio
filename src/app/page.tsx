@@ -17,6 +17,7 @@ import TopLeftAvatar from "@/components/ui/TopLeftAvatar";
 import IntroText from "@/components/ui/IntroText";
 import SectionOne from "@/components/ui/sectionOne"
 import Experience from "@/components/ui/Experience"
+import AboutMe from "@/components/ui/AboutMe"
 
 
 // Fix up the neon text in your IntroText and make it look nicer
@@ -24,7 +25,6 @@ import Experience from "@/components/ui/Experience"
 // Replace some of the bland logos in the tech scroller with better colorful ones
 // Figure out some filler to go in the Lorem Ipsum cards in SectionOne
 // Figure out why and fix the text in Experience carousel turns white during hover transition
-// Items inside the techscroller are overlapping my nav menu on the top right.
 
 
 export default function Home() {
@@ -47,6 +47,7 @@ export default function Home() {
 
               <SectionOne />
               <Experience />
+              <AboutMe />
 
 
           </main>
