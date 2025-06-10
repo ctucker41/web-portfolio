@@ -19,10 +19,9 @@ const AboutMe = () => {
                         About Me
                     </h2>
                     <p className="text-white text-lg leading-relaxed">
-                        Hi there! I'm Christian Tucker, a passionate developer focused on
-                        building modern web applications and exploring cybersecurity. I love
-                        solving complex problems, learning new technologies, and helping
-                        others through my work.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
+                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
+                        sed pretium tristique, nunc magna sagittis risus
                     </p>
                 </CardContent>
             </Card>
