@@ -1,3 +1,6 @@
+"use client"
+
+import { useEffect } from "react";
 import AnimatedBackground from "../components/background/animatedbackground";
 import Header from "@/components/ui/header";
 import TopRightMenu from "@/components/ui/TopRightMenu";
@@ -18,6 +21,10 @@ import Resume from "@/components/ui/Resume"
 
 
 export default function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
   return (
       <div className="relative z-10 min-h-screen">
       <AnimatedBackground>
