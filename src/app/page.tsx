@@ -1,16 +1,4 @@
 import AnimatedBackground from "../components/background/animatedbackground";
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-} from "@/components/ui/carousel"
-import {
-    Card,
-    CardContent,
-} from "@/components/ui/card"
-
 import Header from "@/components/ui/header";
 import TopRightMenu from "@/components/ui/TopRightMenu";
 import TopLeftAvatar from "@/components/ui/TopLeftAvatar";

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import TechScroller from "@/components/ui/TechScroller";
 import { motion } from "framer-motion";
 
@@ -38,8 +38,8 @@ const Experience: React.FC = () => {
                     >
                         {[0, 1].map((index) => (
                             <div key={index} className="p-1 min-w-full">
-                                <Card className="bg-gray-900 border border-slate-600">
-                                    <CardContent className="flex aspect-square items-start justify-center p-10">
+                                <Card className="aspect-square bg-gray-900 border border-slate-600">
+                                    <CardHeader className="flex items-center justify-start p-10">
                                         {index === 0 ? (
                                             <span className="text-4xl font-semibold text-purple-300">
                         Languages
@@ -49,6 +49,67 @@ const Experience: React.FC = () => {
                         Cybersecurity Tools
                       </span>
                                         )}
+                                    </CardHeader>
+                                    <CardContent className="flex flex-col gap-4 items-start justify-start text-white">
+                                        {index === 0 ? (
+                                            <>
+                                                // TypeScript, JavaScript, SQL, C++, C, Python, Powershell, Bash, Ruby, HTML5
+                                            <div className="flex items-center gap-3">
+                                                <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                <span className="text-lg">HTML5</span>
+                                            </div>
+
+                                            <div className="flex items-center gap-3">
+                                                <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                <span className="text-lg">HTML5</span>
+                                            </div>
+
+                                            <div className="flex items-center gap-3">
+                                            <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                            <span className="text-lg">HTML5</span>
+                                            </div>
+
+                                            <div className="flex items-center gap-3">
+                                            <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                            <span className="text-lg">HTML5</span>
+                                            </div>
+
+                                            <div className="flex items-center gap-3">
+                                            <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                            <span className="text-lg">HTML5</span>
+                                            </div>
+
+                                            </>
+                                            ) : (
+                                            <>
+                                                // Wireshark, Nmap, Kali Linux, Hashcat, OSINT Framework
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                            </>
+                                            )}
                                     </CardContent>
                                 </Card>
                             </div>
@@ -70,8 +131,8 @@ const Experience: React.FC = () => {
                     >
                         {[0, 1].map((index) => (
                             <div key={index} className="p-1 min-w-full">
-                                <Card className="bg-gray-900 border border-slate-600">
-                                    <CardContent className="flex aspect-square items-start justify-center p-10">
+                                <Card className="aspect-square bg-gray-900 border border-slate-600">
+                                    <CardHeader className="flex items-center justify-start p-10">
                                         {index === 0 ? (
                                             <span className="text-4xl font-semibold text-purple-300">
                         Developer Tools
@@ -80,6 +141,67 @@ const Experience: React.FC = () => {
                                             <span className="text-4xl font-semibold text-purple-300">
                         Software
                       </span>
+                                        )}
+                                    </CardHeader>
+                                    <CardContent className="flex flex-col gap-4 items-start justify-start text-white">
+                                        {index === 0 ? (
+                                            <>
+                                                // Git, Github, Vercel, AWS, Framer Motion, React, Next.js, Node.js, Tailwind CSS,
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                            </>
+                                        ) : (
+                                            <>
+                                                // Visual Studio, PyCharm, RubyMine, WebStorm, CLion, VMware, VirtualBox,
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
+                                                    <span className="text-lg">HTML5</span>
+                                                </div>
+
+                                            </>
                                         )}
                                     </CardContent>
                                 </Card>
