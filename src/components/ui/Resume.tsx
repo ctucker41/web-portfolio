@@ -1,6 +1,7 @@
 "use client";
 
-import {Button} from "@/components/ui/button";
+import { buttonVariants} from "@/components/ui/button";
+import Link from "next/link"
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -32,14 +33,13 @@ const Resume = () => {
                 Planning to pursue my&nbsp;<span className="font-bold text-purple-300">Bachelors of Applied Science </span>
                 in Computing Technology & Software Development<br />
             </p>
-            <Button
-                variant="secondary"
-                className="text-white bg-purple-600 hover:bg-purple-700 font-semibold px-10 py-3 rounded-md transition"
-                as="a"
-                href="/resumepage"
+            <Link
+                href="/"
+                className=
+                        "text-white bg-purple-600 hover:bg-purple-700 font-semibold px-10 py-3 rounded-md transition"
             >
                 View Resume
-            </Button>
+            </Link>
         </motion.section>
     );
 };
