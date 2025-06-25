@@ -1,3 +1,6 @@
+"use client"
+
+import { useEffect } from "react";
 import AnimatedBackground from "../components/background/animatedbackground";
 import Header from "@/components/ui/header";
 import TopRightMenu from "@/components/ui/TopRightMenu";
@@ -10,6 +13,7 @@ import ContactMe from "@/components/ui/ContactMe"
 import Resume from "@/components/ui/Resume"
 
 
+
 // Fix up the neon text in your IntroText and make it look nicer
 // Below the horizontal sliding menu, put cards with my experience, sectioning them off with cards like "Cybersecurity" "Programming" etc.
 // Replace some of the bland logos in the tech scroller with better colorful ones
@@ -18,8 +22,13 @@ import Resume from "@/components/ui/Resume"
 
 
 export default function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
   return (
       <div className="relative z-10 min-h-screen">
+
       <AnimatedBackground>
         <h1></h1>
       </AnimatedBackground>
@@ -30,6 +39,7 @@ export default function Home() {
               <Header />
               <TopRightMenu />
               <IntroText />
+
           </header>
 
 
