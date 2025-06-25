@@ -15,6 +15,7 @@ import Resume from "@/components/ui/Resume"
 
 
 // Fix up the neon text in your IntroText and make it look nicer
+// Make the neon intro text that glows so that it cant be highlighted with the mouse
 // Below the horizontal sliding menu, put cards with my experience, sectioning them off with cards like "Cybersecurity" "Programming" etc.
 // Replace some of the bland logos in the tech scroller with better colorful ones
 // Figure out some filler to go in the Lorem Ipsum cards in SectionOne
@@ -35,19 +36,23 @@ export default function Home() {
 
           <header className="mt-8 w-full flex justify-center relative min-h-[400px]">
 
-              <TopLeftAvatar />
-              <Header />
-              <TopRightMenu />
-              <IntroText />
+              <TopLeftAvatar/>
+              <Header/>
+              <TopRightMenu/>
+              <IntroText/>
+              <div
+                  className="fixed top-4 left-4 bg-yellow-200 text-yellow-800 text-lg px-3 py-1 rounded shadow-lg z-50">
+                  🚧 Work in Progress
+              </div>
 
           </header>
 
 
           <main className="flex flex-col">
 
-              <SectionOne />
-              <Experience />
-              <AboutMe />
+              <SectionOne/>
+              <Experience/>
+              <AboutMe/>
               <Resume />
 
 
