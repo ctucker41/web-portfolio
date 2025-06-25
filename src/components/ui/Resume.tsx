@@ -15,7 +15,7 @@ const Resume = () => {
         >
             <h2 className="text-3xl font-bold text-white mb-6 flex items-center">
                 <img
-                    src="resume.svg"
+                    src="/resume.svg"
                     alt="Resume Logo"
                     className="w-12 h-12 mr-3"
                 />

@@ -45,7 +45,7 @@ export default function IntroText() {
                 transition={{ delay: 4, duration: 1.5, ease: "easeOut" }}
                 className="font-bold text-purple-300 text-2xl mt-7 neon-text"
             >
-                I'm Christian, a student developer based in Orlando, FL
+                {"I'm Christian, a student developer based in Orlando, FL"}
             </motion.span>
         </div>
     );
