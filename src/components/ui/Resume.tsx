@@ -11,7 +11,7 @@ const Resume = () => {
     return (
         <motion.section
             id="resume"
-            className="flex flex-col items-center mt-48 px-4 scroll-mt-24 max-w-3xl mx-auto"
+            className="flex flex-col items-center mt-80 px-4 scroll-mt-24 max-w-3xl mx-auto"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}

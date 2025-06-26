@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const AboutMe = () => {
     return (
-        <section className="flex justify-center items-center mt-48 px-4">
+        <section className="flex justify-center items-center mt-80 px-4">
             <motion.div
                 initial={{ opacity: 0, y: -50}}
                 animate={{ opacity: 1, y: 0 }}
@@ -28,6 +28,18 @@ const AboutMe = () => {
                     </h2>
                     <p className="text-white text-lg leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
+                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
+                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
+                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
+                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
+                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
+                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
+                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
+                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
+                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
+                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
+                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
+                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
                         nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
                         sed pretium tristique, nunc magna sagittis risus
                     </p>
