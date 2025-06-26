@@ -56,7 +56,7 @@ export default function TechScroller() {
     }, [controls, totalItems, itemWidth]);
 
     return (
-            <div className="overflow-hidden w-full py-4 bg-gray-900 rounded-xl mt-8">
+            <div className="overflow-hidden w-full py-4 bg-gray-900 rounded-xl mt-8 select-none">
                 <motion.div
                     className="flex gap-10 whitespace-nowrap px-4"
                     animate={controls}

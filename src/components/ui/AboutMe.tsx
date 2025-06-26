@@ -16,7 +16,7 @@ const AboutMe = () => {
             <Card id="about" className="relative bg-gray-900 border border-slate-600 scroll-mt-24 max-w-3xl w-full p-8">
 
                 <div className="absolute -top-8 left-8">
-                    <Avatar className="w-32 h-32 border-4 border-gray-900">
+                    <Avatar className="w-32 h-32 border-4 border-gray-900 select-none">
                         {/* <AvatarImage src="" alt="Christian Tucker" /> */}
                         <AvatarFallback>CT</AvatarFallback>
                     </Avatar>

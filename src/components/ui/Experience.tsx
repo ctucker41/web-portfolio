@@ -16,7 +16,7 @@ const Experience: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}>
 
-            <h2 id="experience" className="flex justify-center items-center mt-80 scroll-mt-24 text-2xl text-white">
+            <h2 id="experience" className="flex justify-center items-center mt-80 scroll-mt-24 text-2xl text-white cursor-default">
                 What do I have&nbsp;
                 <span className="text-purple-300 font-bold">experience</span>
                 &nbsp;with?
@@ -24,7 +24,7 @@ const Experience: React.FC = () => {
 
             <TechScroller />
 
-            <div className="flex flex-row justify-center items-center mt-32">
+            <div className="flex flex-row justify-center items-center mt-32 select-none">
                 <div
                     className="w-[600px] mr-28 overflow-hidden relative rounded-xl"
                     onMouseEnter={() => setHoveredFirst(true)}
@@ -213,8 +213,8 @@ const Experience: React.FC = () => {
                                                 </div>
 
                                                 <div className="flex items-center gap-3">
-                                                    <img src="/aws.svg" alt="aws" className="w-6 h-6" />
-                                                    <span className="text-lg">aws</span>
+                                                    <img src="/aws.svg" alt="AWS" className="w-6 h-6" />
+                                                    <span className="text-lg">AWS</span>
                                                 </div>
 
                                             </>
