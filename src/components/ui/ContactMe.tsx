@@ -15,13 +15,13 @@ const ContactMe = () => {
 
             <footer id="contact" className="grid grid-cols-3 items-center w-full mt-80 min-h-[150px] gap-4 px-6 bg-gray-900 text-white">
 
-                <div className="text-sm text-left">
+                <div className="text-sm text-left select-none">
                     Copyright &copy; 2025 Christian Tucker
                 </div>
 
                 <div className="flex-col">
 
-                <h2 className="text-2xl flex justify-center text-white font-bold mb-4">Contact Me</h2>
+                <h2 className="text-2xl flex justify-center text-white font-bold mb-4 cursor-default">Contact Me</h2>
 
                 <div className="flex gap-4 text-xl text-white justify-center">
 

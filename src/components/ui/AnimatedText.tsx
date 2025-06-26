@@ -20,7 +20,7 @@ const AnimatedText = () => {
     const words = "Dynamic Web Portfolio Using".split(" ");
 
     return (
-        <div ref={scope} className="absolute top-8 left-1/2 transform -translate-x-1/2 text-white text-4xl font-bold">
+        <div ref={scope} className="absolute top-8 left-1/2 transform -translate-x-1/2 text-white text-4xl font-bold cursor-default">
             {words.map((word, index) => (
                 <motion.span
                     key={index}

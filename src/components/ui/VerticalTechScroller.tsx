@@ -24,7 +24,7 @@ export default function VerticalTechScroller() {
             transition={{ delay: 1.25, duration: 3 }}
             className="absolute top-5 left-1/2 -translate-x-1/2 -translate-y-1/2 mt-20"
         >
-        <div className="h-9 w-[18rem] overflow-hidden rounded-xl bg-gray-900 mx-auto mt-[70px] shadow-md">
+        <div className="h-9 w-[18rem] overflow-hidden rounded-xl bg-gray-900 mx-auto mt-[70px] shadow-md select-none">
             <motion.div
                 className="flex flex-col items-center justify-center gap-4 py-4"
                 animate={{ y: ["0%", "-50%"] }}
