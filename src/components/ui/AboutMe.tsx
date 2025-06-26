@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, /* AvatarImage, */ AvatarFallback } from "@/components/ui/avatar";
 import { motion } from "framer-motion";
 
 const AboutMe = () => {
