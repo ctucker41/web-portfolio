@@ -22,6 +22,7 @@ import Resume from "@/components/ui/Resume"
 // Figure out why and fix the text in Experience carousel turns white during hover transition
 // Add a fun picture or style of some sort to the third grid column inside ContactMe section
 // Add a picture or something between resume and ContactMe sections to pad space. Currently the Resume and Contact Me nav menu buttons lead to exactly the same spot.
+// Update the avatar pictures when ready with a headshot
 
 
 export default function Home() {

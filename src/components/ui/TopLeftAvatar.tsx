@@ -23,8 +23,8 @@ export default function TopLeftAvatar() {
         >
 
             <Avatar>
-                <AvatarImage src="https://github.com/shadcn.png" />
-                <AvatarFallback>CT</AvatarFallback>
+                {/* <AvatarImage src="" /> */}
+                <AvatarFallback>C T</AvatarFallback>
             </Avatar>
 
                 <Card className="rounded-xl bg-slate-600 mt-2 border-0 w-[150px]">
