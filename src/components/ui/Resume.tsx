@@ -3,6 +3,9 @@
 import Link from "next/link"
 import React from "react";
 import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
+
 
 const Resume = () => {
     return (
@@ -32,13 +35,30 @@ const Resume = () => {
                 Planning to pursue my&nbsp;<span className="font-bold text-purple-300">Bachelors of Applied Science </span>
                 in Computing Technology & Software Development<br />
             </p>
-            <Link
-                href="/"
-                className=
-                        "text-white bg-purple-600 hover:bg-purple-700 font-semibold px-10 py-3 rounded-md transition"
-            >
-                View Resume
-            </Link>
+
+            <div className="flex items-center gap-3">
+                <Link
+                    href="/Christian_Tucker_Resume.pdf"
+                    className="text-white bg-purple-600 hover:bg-purple-700 font-semibold px-10 py-3 rounded-md transition h-[48px] flex items-center"
+                >
+                    View Resume
+                </Link>
+                <Button
+                    asChild
+                    size="icon"
+                    className="text-white bg-purple-600 hover:bg-purple-700 h-[48px] w-[48px]"
+                >
+                    <Link
+                        href="/Christian_Tucker_Resume.pdf"
+                        download="Christian_Tucker_Resume.pdf"
+                        target="_blank"
+                    >
+                        <Download className="w-4 h-4" />
+                    </Link>
+                </Button>
+            </div>
+
+
         </motion.section>
     );
 };
