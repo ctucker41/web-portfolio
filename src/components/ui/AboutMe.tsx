@@ -26,22 +26,19 @@ const AboutMe = () => {
                     <h2 className="text-3xl font-bold text-purple-300 mb-4 flex ml-28">
                         About Me
                     </h2>
-                    <p className="text-white text-lg leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
-                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
-                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
-                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
-                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
-                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
-                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
-                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
-                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
-                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
-                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
-                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
-                        sed pretium tristique, nunc magna sagittis risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae orci
-                        nec metus dictum eleifend. Aliquam erat volutpat. Maecenas vehicula, ligula
-                        sed pretium tristique, nunc magna sagittis risus
+                    <p className="text-white text-lg leading-relaxed indent-6 mt-12">
+                        My name is Christian Tucker, and I’m a self-driven developer and student based in Orlando, Florida. I’m currently pursuing a degree
+                        in Computer Programming & Analysis, and I spend most of my time building, breaking, and improving things on my own terms. I enjoy
+                        creating tools and projects that serve a real purpose — from front-end websites to backend scripts and system automation. I like learning
+                        both how to make things look good and how to make them efficient behind the scenes.
+                    </p>
+
+                    <p className="text-white text-lg leading-relaxed indent-6 mt-12">
+                        I’ve spent most of my time working with technologies like C++, C, React, Next.js, Tailwind CSS, and Python, and I’ve recently started working
+                        with scripting languages like Ruby, Bash and PowerShell for automation. I created this portfolio to showcase what I&apos;ve done — but also to
+                        document my journey as I grow. It’s both a learning space and a digital footprint that reflects my evolving skill set and interests. I’m
+                        detail-oriented, curious, and always looking for new challenges. Whether I’m cleaning up code, tackling something unfamiliar, or picking up new
+                        skills, I love the challenge and the constant learning along the way.
                     </p>
                 </CardContent>
             </Card>
