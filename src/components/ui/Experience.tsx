@@ -16,7 +16,7 @@ const Experience: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}>
 
-            <h2 id="experience" className="flex justify-center items-center mt-80 scroll-mt-24 text-2xl text-white cursor-default">
+            <h2 id="experience" className="flex justify-center items-center mt-80 scroll-mt-16 text-2xl text-white cursor-default">
                 What do I have&nbsp;
                 <span className="text-purple-300 font-bold">experience</span>
                 &nbsp;with?

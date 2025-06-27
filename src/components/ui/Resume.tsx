@@ -58,6 +58,8 @@ const Resume = () => {
                 </Button>
             </div>
 
+            <img src="/textmessage.svg" alt="Texting Image" className="w-full h-60 w-60 mt-48" />
+
 
         </motion.section>
     );

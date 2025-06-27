@@ -50,6 +50,10 @@ const ContactMe = () => {
                     </Link>
                 </div>
             </div>
+
+                <div className="flex justify-end items-center">
+                    <img src="/social.svg" alt="Social Media Photo" className="w-32 h-32" />
+                </div>
             </footer>
         </motion.div>
     );
