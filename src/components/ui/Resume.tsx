@@ -11,16 +11,16 @@ const Resume = () => {
     return (
         <motion.section
             id="resume"
-            className="flex flex-col items-center mt-80 px-4 scroll-mt-24 max-w-3xl mx-auto"
+            className="flex flex-col items-center mt-48 md:mt-80 px-4 scroll-mt-24 max-w-3xl mx-auto"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}
         >
-            <h2 className="text-3xl font-bold text-white mb-6 flex items-center">
+            <h2 className="text-xl md:text-3xl font-bold text-white mb-6 flex items-center">
                 <img
                     src="/resume.svg"
                     alt="Resume Logo"
-                    className="w-12 h-12 mr-3"
+                    className="w-8 h-8 md:w-12 md:h-12 mr-3"
                 />
                 Take a look at my&nbsp;
                 <span className="font-bold text-purple-300">
@@ -58,7 +58,7 @@ const Resume = () => {
                 </Button>
             </div>
 
-            <img src="/textmessage.svg" alt="Texting Image" className="w-full h-60 w-60 mt-48" />
+            <img src="/textmessage.svg" alt="Texting Image" className="w-full h-60 w-60 mt-28 md:mt-48" />
 
 
         </motion.section>

@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { Avatar, AvatarFallback, /* AvatarImage */ } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, /*AvatarImage*/ } from "@/components/ui/avatar";
 import { motion } from "framer-motion"
 import {
     Card,
@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function TopLeftAvatar() {
     return (
-        <div className="absolute top-8 left-24">
+        <div className="relative md:absolute top-16 md:top-8 md:left-24">
             <motion.div
             initial={{ opacity: 0, y: -50}}
             animate={{ opacity: 1, y: 0 }}
@@ -22,7 +22,7 @@ export default function TopLeftAvatar() {
             className="flex flex-col items-center select-none"
         >
 
-            <Avatar>
+            <Avatar className="w-24 h-24 md:w-[200px] md:h-[200px]">
                 {/* <AvatarImage src="" /> */}
                 <AvatarFallback>C T</AvatarFallback>
             </Avatar>

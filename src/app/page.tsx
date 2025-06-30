@@ -22,6 +22,10 @@ import Resume from "@/components/ui/Resume"
 // Add a picture or something between resume and ContactMe sections to pad space. Currently the Resume and Contact Me nav menu buttons lead to exactly the same spot.
 // Update the avatar pictures when ready with a headshot
 // Optimize the site for mobile
+// In SectionOne, the images for Planned Projects are not inline the way the icons in the other cards are, try to find a fix
+// Fix up the length of the scroll on the tech scroller for mobile screens
+// Fix up the hover cards in Experience section for mobile screens
+// IntroText does not delay appearance on mobile
 
 
 export default function Home() {
@@ -36,17 +40,18 @@ export default function Home() {
         <h1></h1>
       </AnimatedBackground>
 
-          <header className="mt-8 w-full flex justify-center relative min-h-[400px]">
+          <header className="mt-8 w-full flex flex-col md:flex-row justify-center relative md:min-h-[400px]">
 
               <div
                   className="fixed top-4 left-4 bg-yellow-200 text-yellow-800 text-lg px-3 py-1 rounded shadow-lg z-50">
                   🚧 Work in Progress
               </div>
 
-              <TopLeftAvatar/>
+
               <Header/>
               <TopRightMenu/>
               <IntroText/>
+              <TopLeftAvatar/>
 
 
           </header>

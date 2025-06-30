@@ -6,7 +6,7 @@ export default function IntroText() {
     const heyText = "Hey!";
 
     return (
-        <div className="absolute top-48 w-full text-center select-none">
+        <div className="relative top-4 md:top-48 w-full text-center select-none">
             <motion.div
                 className="flex justify-center font-bold text-3xl"
                 initial="hidden"

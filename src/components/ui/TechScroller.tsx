@@ -58,17 +58,17 @@ export default function TechScroller() {
     return (
             <div className="overflow-hidden w-full py-4 bg-gray-900 rounded-xl mt-8 select-none">
                 <motion.div
-                    className="flex gap-10 whitespace-nowrap px-4"
+                    className="flex gap-4 md:gap-10 whitespace-nowrap px-4"
                     animate={controls}
                     initial={{ x: 0 }}
                 >
                     {techStack.concat(techStack).map((tech, index) => (
                         <div
                             key={index}
-                            className="text-white text-lg font-medium bg-gray-800 px-4 py-2 rounded-md shadow-md min-w-[150px] text-center"
+                            className="text-white text-xs md:text-lg font-medium bg-gray-800 px-4 py-2 rounded-md shadow-md w-[20%] md:min-w-[150px] text-center"
                         >
                             <div className="flex flex-col items-center">
-                                <img src={tech.logo} alt={tech.name} className="w-12 h-12 mb-2" />
+                                <img src={tech.logo} alt={tech.name} className="w-6 h-6 md:w-12 md:h-12 mb-2" />
                                 <span>{tech.name}</span>
                             </div>
                         </div>
