@@ -13,38 +13,38 @@ const ContactMe = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}>
 
-            <footer id="contact" className="grid grid-cols-3 items-center w-full mt-80 min-h-[150px] gap-4 px-6 bg-gray-900 text-white">
+            <footer id="contact" className="grid grid-cols-3 md:items-center w-full mt-80 min-h-[150px] gap-4 px-6 bg-gray-900 text-white">
 
-                <div className="text-sm text-left select-none">
+                <div className="text-[10px] md:text-sm text-left mt-24 md:mt-0 select-none">
                     Copyright &copy; 2025 Christian Tucker
                 </div>
 
                 <div className="flex-col">
 
-                <h2 className="text-2xl flex justify-center text-white font-bold mb-4 cursor-default">Contact Me</h2>
+                <h2 className="text-l md:text-2xl flex justify-center text-white font-bold md:mb-4 mt-4 md:mt-0 cursor-default">Contact Me</h2>
 
-                <div className="flex gap-4 text-xl text-white justify-center">
+                <div className="flex gap-1.5 md:gap-4 text-white justify-center">
 
                     <Link href="mailto:ctuckercareers@yahoo.com" target="_blank">
-                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2">
+                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaEnvelope />
                         </Button>
                     </Link>
 
                     <Link href="https://github.com/ctucker41" target="_blank">
-                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2">
+                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaGithub />
                         </Button>
                     </Link>
 
                     <Link href="https://www.linkedin.com/in/christian-tucker-55b423196/" target="_blank">
-                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2">
+                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaLinkedin />
                         </Button>
                     </Link>
 
                     <Link href="https://x.com/ctuckercareers" target="_blank">
-                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2">
+                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaTwitter />
                         </Button>
                     </Link>
@@ -52,7 +52,7 @@ const ContactMe = () => {
             </div>
 
                 <div className="flex justify-end items-center">
-                    <img src="/social.svg" alt="Social Media Photo" className="w-32 h-32" />
+                    <img src="/social.svg" alt="Social Media Photo" className="w-28 h-28 md:w-32 md:h-32" />
                 </div>
             </footer>
         </motion.div>
