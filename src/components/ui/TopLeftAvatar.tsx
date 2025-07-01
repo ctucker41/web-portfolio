@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { Avatar, AvatarFallback, /*AvatarImage*/ } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { motion } from "framer-motion"
 import {
     Card,
@@ -23,7 +23,7 @@ export default function TopLeftAvatar() {
         >
 
             <Avatar className="w-24 h-24 md:w-[200px] md:h-[200px]">
-                {/* <AvatarImage src="" /> */}
+                <AvatarImage src="/Headshot2.png" />
                 <AvatarFallback>C T</AvatarFallback>
             </Avatar>
 

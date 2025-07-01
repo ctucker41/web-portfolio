@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Avatar, /* AvatarImage, */ AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { motion } from "framer-motion";
 
 const AboutMe = () => {
@@ -17,7 +17,7 @@ const AboutMe = () => {
 
                 <div className="absolute -top-8 left-8">
                     <Avatar className="w-32 h-32 border-4 border-gray-900 select-none">
-                        {/* <AvatarImage src="" alt="Christian Tucker" /> */}
+                        <AvatarImage src="/Headshot2.png" alt="Christian Tucker" />
                         <AvatarFallback>CT</AvatarFallback>
                     </Avatar>
                 </div>
