@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useAnimation } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const techStack = [
     { name: "Wireshark", logo: "/wireshark.svg" },
@@ -34,46 +34,68 @@ export default function TechScroller() {
     const controls = useAnimation();
     const itemWidth = 190;
     const totalItems = techStack.length;
+    const scrollerRef = useRef<HTMLDivElement | null>(null);
+    const [maxScrollX, setMaxScrollX] = useState(0);
     const currentIndex = useRef(0);
 
     useEffect(() => {
-        const interval = setInterval(() => {
-            currentIndex.current += 1;
-            controls.start({
-                x: -currentIndex.current * itemWidth,
-                transition: { duration: 0.5, ease: "easeInOut" },
-            });
+        function updateMaxScroll() {
+            const containerWidth = scrollerRef.current?.offsetWidth || 0;
+            const totalContentWidth = totalItems * itemWidth;
+            const maxScroll = totalContentWidth - containerWidth;
+            setMaxScrollX(maxScroll > 0 ? maxScroll : 0);
+        }
 
-            if (currentIndex.current >= totalItems) {
-                setTimeout(() => {
-                    controls.set({ x: 0 });
-                    currentIndex.current = 0;
-                }, 600);
+        updateMaxScroll();
+        window.addEventListener("resize", updateMaxScroll);
+        return () => window.removeEventListener("resize", updateMaxScroll);
+    }, [totalItems]);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const newX = (currentIndex.current + 1) * itemWidth;
+
+            if (newX >= maxScrollX) {
+                controls.set({ x: 0 });
+                currentIndex.current = 0;
+            } else {
+                currentIndex.current += 1;
+                controls.start({
+                    x: -newX,
+                    transition: { duration: 0.5, ease: "easeInOut" },
+                });
             }
         }, 2500);
 
         return () => clearInterval(interval);
-    }, [controls, totalItems, itemWidth]);
+    }, [controls, maxScrollX, itemWidth]);
 
     return (
-            <div className="overflow-hidden w-full py-4 bg-gray-900 rounded-xl mt-8 select-none">
-                <motion.div
-                    className="flex gap-4 md:gap-10 whitespace-nowrap px-4"
-                    animate={controls}
-                    initial={{ x: 0 }}
-                >
-                    {techStack.concat(techStack).map((tech, index) => (
-                        <div
-                            key={index}
-                            className="text-white text-xs md:text-lg font-medium bg-gray-800 px-4 py-2 rounded-md shadow-md w-[20%] md:min-w-[150px] text-center"
-                        >
-                            <div className="flex flex-col items-center">
-                                <img src={tech.logo} alt={tech.name} className="w-6 h-6 md:w-12 md:h-12 mb-2" />
-                                <span>{tech.name}</span>
-                            </div>
+        <div
+            ref={scrollerRef}
+            className="overflow-hidden w-full py-4 bg-gray-900 rounded-xl mt-8 select-none"
+        >
+            <motion.div
+                className="flex gap-4 md:gap-10 whitespace-nowrap px-4"
+                animate={controls}
+                initial={{ x: 0 }}
+            >
+                {techStack.concat(techStack).map((tech, index) => (
+                    <div
+                        key={index}
+                        className="text-white text-xs md:text-lg font-medium bg-gray-800 px-4 py-2 rounded-md shadow-md w-[20%] md:min-w-[150px] text-center"
+                    >
+                        <div className="flex flex-col items-center">
+                            <img
+                                src={tech.logo}
+                                alt={tech.name}
+                                className="w-6 h-6 md:w-12 md:h-12 mb-2"
+                            />
+                            <span>{tech.name}</span>
                         </div>
-                    ))}
-                </motion.div>
-            </div>
-            );
-            }
+                    </div>
+                ))}
+            </motion.div>
+        </div>
+    );
+}

@@ -50,7 +50,7 @@ export default function Home() {
 
               <Header/>
               <TopRightMenu/>
-              <IntroText/>
+              <IntroText />
               <TopLeftAvatar/>
 
 
