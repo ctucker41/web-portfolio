@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><linearGradient id="vscodeIconsFileTypeLightVercel0" x1="1.288" x2="1.143" y1="32.55" y2="32.75" gradientTransform="matrix(114 0 0 -100 -113 3301)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1"/></linearGradient></defs><path fill="url(#vscodeIconsFileTypeLightVercel0)" fill-rule="evenodd" d="m16 3.719l14 24.562H2z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+    <g fill="none">
+        <rect width="256" height="256" fill="#242938" rx="60" />
+        <path fill="#080808" d="m128 34l95 164.853H33z" />
+    </g>
+</svg>

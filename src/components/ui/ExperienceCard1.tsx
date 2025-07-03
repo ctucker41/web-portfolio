@@ -80,7 +80,7 @@ export default function ExperienceCard1() {
                         content={
                             <>
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="Kali Linux" className="w-6 h-6" />
+                                    <img src="/kalilinux.svg" alt="Kali Linux" className="w-6 h-6" />
                                     <span className="text-lg">Kali Linux</span>
                                 </div>
 
@@ -95,14 +95,10 @@ export default function ExperienceCard1() {
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="OSINT Framework" className="w-6 h-6" />
+                                    <img src="/osint.svg" alt="OSINT Framework" className="w-6 h-6" />
                                     <span className="text-lg">OSINT Framework</span>
                                 </div>
 
-                                <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="Hashcat" className="w-6 h-6" />
-                                    <span className="text-lg">Hashcat</span>
-                                </div>
                             </>
                         } />
 

@@ -16,8 +16,14 @@ const ContactMe = () => {
             <footer id="contact" className="grid grid-cols-3 md:items-center w-full mt-80 min-h-[150px] gap-4 px-6 bg-gray-900 text-white">
 
                 <div className="text-[10px] md:text-sm text-left mt-24 md:mt-0 select-none">
-                    Copyright &copy; 2025 Christian Tucker
+                    &copy; 2025 Christian Tucker
+                    <br /><br />
+                    All trademarks are property of their respective owners.
+                    <br />
+                    <a href="/trademarks" className="underline">Trademarks notice</a>
                 </div>
+
+
 
                 <div className="flex-col">
 

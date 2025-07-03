@@ -14,18 +14,12 @@ import Resume from "@/components/ui/Resume"
 
 
 
-// Make the neon intro text that glows so that it cant be highlighted with the mouse
 // Replace some of the bland logos in the tech scroller with better colorful ones
-// Figure out some filler to go in the Lorem Ipsum cards in SectionOne
 // Figure out why and fix the text in Experience carousel turns white during hover transition
-// Add a fun picture or style of some sort to the third grid column inside ContactMe section
-// Add a picture or something between resume and ContactMe sections to pad space. Currently the Resume and Contact Me nav menu buttons lead to exactly the same spot.
-// Update the avatar pictures when ready with a headshot
-// Optimize the site for mobile
 // In SectionOne, the images for Planned Projects are not inline the way the icons in the other cards are, try to find a fix
 // Fix up the length of the scroll on the tech scroller for mobile screens
-// Fix up the hover cards in Experience section for mobile screens
-// IntroText does not delay appearance on mobile
+// Fix the neon text delay on mobile specifically in the IntroText section
+// Finish the Trademarks page, go through each logo and find the trademark owner and policy
 
 
 export default function Home() {

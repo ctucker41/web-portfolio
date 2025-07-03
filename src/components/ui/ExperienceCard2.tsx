@@ -18,57 +18,52 @@ export default function ExperienceCard2() {
             >
                 <div className="min-w-full p-2">
                     <SingleCard
-                        title="Languages"
+                        title="Developer Tools"
                         content={
                             <>
                                 <div className="flex items-center gap-3">
-                                    <img src="/typescript.svg" alt="Typescript" className="w-6 h-6" />
-                                    <span className="text-lg">Typescript</span>
+                                    <img src="/git.svg" alt="Git" className="w-6 h-6" />
+                                    <span className="text-lg">Git</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/javascript.svg" alt="Javascript" className="w-6 h-6" />
-                                    <span className="text-lg">Javascript</span>
+                                    <img src="/github.svg" alt="Github" className="w-6 h-6" />
+                                    <span className="text-lg">Github</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/cpp.svg" alt="C++" className="w-6 h-6" />
-                                    <span className="text-lg">C++</span>
+                                    <img src="/react.svg" alt="React" className="w-6 h-6" />
+                                    <span className="text-lg">React</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/c.svg" alt="C" className="w-6 h-6" />
-                                    <span className="text-lg">C</span>
+                                    <img src="/nextjs.svg" alt="Next.js" className="w-6 h-6" />
+                                    <span className="text-lg">Next.js</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/python.svg" alt="Python" className="w-6 h-6" />
-                                    <span className="text-lg">Python</span>
+                                    <img src="/nodejs.svg" alt="Node.js" className="w-6 h-6" />
+                                    <span className="text-lg">Node.js</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/html5.svg" alt="HTML5" className="w-6 h-6" />
-                                    <span className="text-lg">HTML5</span>
+                                    <img src="/tailwindcss.svg" alt="Tailwind CSS" className="w-6 h-6" />
+                                    <span className="text-lg">Tailwind CSS</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/sql.svg" alt="SQL" className="w-6 h-6" />
-                                    <span className="text-lg">SQL</span>
+                                    <img src="/vercel.svg" alt="Vercel" className="w-6 h-6" />
+                                    <span className="text-lg">Vercel</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/bash.svg" alt="Bash" className="w-6 h-6" />
-                                    <span className="text-lg">Bash</span>
+                                    <img src="/framermotion.svg" alt="Framer Motion" className="w-6 h-6" />
+                                    <span className="text-lg">Framer Motion</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/powershell.svg" alt="Powershell" className="w-6 h-6" />
-                                    <span className="text-lg">Powershell</span>
-                                </div>
-
-                                <div className="flex items-center gap-3">
-                                    <img src="/ruby.svg" alt="Ruby" className="w-6 h-6" />
-                                    <span className="text-lg">Ruby</span>
+                                    <img src="/aws.svg" alt="AWS" className="w-6 h-6" />
+                                    <span className="text-lg">AWS</span>
                                 </div>
                             </>
                         }/>
@@ -76,32 +71,42 @@ export default function ExperienceCard2() {
 
                 <div className="min-w-full p-2">
                     <SingleCard
-                        title="Cybersecurity Tools"
+                        title="Software"
                         content={
                             <>
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="Kali Linux" className="w-6 h-6" />
-                                    <span className="text-lg">Kali Linux</span>
+                                    <img src="/vscode.svg" alt="Visual Studio Code" className="w-6 h-6" />
+                                    <span className="text-lg">VS Code</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/wireshark.svg" alt="Wireshark" className="w-6 h-6" />
-                                    <span className="text-lg">Wireshark</span>
+                                    <img src="/pycharm.svg" alt="PyCharm" className="w-6 h-6" />
+                                    <span className="text-lg">PyCharm</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/nmap.svg" alt="Nmap" className="w-6 h-6" />
-                                    <span className="text-lg">Nmap</span>
+                                    <img src="/webstorm.svg" alt="WebStorm" className="w-6 h-6" />
+                                    <span className="text-lg">WebStorm</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="OSINT Framework" className="w-6 h-6" />
-                                    <span className="text-lg">OSINT Framework</span>
+                                    <img src="/clion.svg" alt="CLion" className="w-6 h-6" />
+                                    <span className="text-lg">CLion</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="Hashcat" className="w-6 h-6" />
-                                    <span className="text-lg">Hashcat</span>
+                                    <img src="/rubymine.svg" alt="RubyMine" className="w-6 h-6" />
+                                    <span className="text-lg">RubyMine</span>
+                                </div>
+
+                                <div className="flex items-center gap-3">
+                                    <img src="/vmware.svg" alt="VMware" className="w-6 h-6" />
+                                    <span className="text-lg">VMware</span>
+                                </div>
+
+                                <div className="flex items-center gap-3">
+                                    <img src="/virtualbox.svg" alt="VirtualBox" className="w-6 h-6" />
+                                    <span className="text-lg">VirtualBox</span>
                                 </div>
                             </>
                         } />
