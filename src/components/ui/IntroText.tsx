@@ -8,7 +8,7 @@ export default function IntroText() {
     const heyText = "Hey!";
 
     return (
-        <div className="flex-row">
+        <div className="flex-col">
 
             <AnimatedText />
             <VerticalTechScroller />
