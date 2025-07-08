@@ -17,7 +17,7 @@ const AboutMe = () => {
 
                 <div className="absolute -top-8 left-8">
                     <Avatar className="w-32 h-32 border-4 border-gray-900 select-none">
-                        <AvatarImage src="/Headshot2.png" alt="Christian Tucker" />
+                        <AvatarImage src="/Headshot2.png" draggable={false} alt="Christian Tucker" />
                         <AvatarFallback>CT</AvatarFallback>
                     </Avatar>
                 </div>

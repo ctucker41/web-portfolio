@@ -19,15 +19,15 @@ export default function TopLeftAvatar() {
             initial={{ opacity: 0, y: -50}}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}
-            className="flex flex-col items-center select-none"
+            className="flex flex-col items-center"
         >
 
             <Avatar className="w-24 h-24 md:w-[200px] md:h-[200px]">
-                <AvatarImage src="/Headshot2.png" />
+                <AvatarImage src="/Headshot2.png" draggable={false} />
                 <AvatarFallback>C T</AvatarFallback>
             </Avatar>
 
-                <Card className="rounded-xl bg-slate-600 mt-2 border-0 w-[150px]">
+                <Card className="rounded-xl bg-slate-600 mt-2 border-0 w-[150px] select-none">
                     <CardContent className="p-0 flex items-center justify-center">
                         <h1 className="text-slate-300">Christian Tucker</h1>
                     </CardContent>
@@ -35,13 +35,13 @@ export default function TopLeftAvatar() {
 
                 <div className="flex flex-row justify-center gap-4 mt-0">
 
-                    <Link href="https://github.com/ctucker41" target="_blank">
+                    <Link href="https://github.com/ctucker41" target="_blank" draggable={false}>
                 <Button variant="outline" size="icon" className="bg-slate-300 border-0 rounded-full mt-2">
                     <FaGithub />
                 </Button>
                     </Link>
 
-                    <Link href="https://www.linkedin.com/in/christian-tucker-55b423196/" target="_blank">
+                    <Link href="https://www.linkedin.com/in/christian-tucker-55b423196/" target="_blank" draggable={false}>
                 <Button variant="outline" size="icon" className="bg-slate-300 border-0 rounded-full mt-2">
                     <FaLinkedin />
                 </Button>

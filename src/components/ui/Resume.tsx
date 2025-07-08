@@ -20,6 +20,7 @@ const Resume = () => {
                 <img
                     src="/resume.svg"
                     alt="Resume Logo"
+                    draggable={false}
                     className="w-8 h-8 md:w-12 md:h-12 mr-3"
                 />
                 Take a look at my&nbsp;
@@ -39,6 +40,7 @@ const Resume = () => {
             <div className="flex items-center gap-3">
                 <Link
                     href="/Christian_Tucker_Resume.pdf"
+                    draggable={false}
                     className="text-white bg-purple-600 hover:bg-purple-700 font-semibold px-10 py-3 rounded-md transition h-[48px] flex items-center"
                 >
                     View Resume
@@ -52,13 +54,14 @@ const Resume = () => {
                         href="/Christian_Tucker_Resume.pdf"
                         download="Christian_Tucker_Resume.pdf"
                         target="_blank"
+                        draggable={false}
                     >
                         <Download className="w-4 h-4" />
                     </Link>
                 </Button>
             </div>
 
-            <img src="/textmessage.svg" alt="Texting Image" className="w-full h-60 w-60 mt-28 md:mt-48" />
+            <img src="/textmessage.svg" alt="Texting Image" draggable={false} className="w-full h-60 w-60 mt-28 md:mt-48" />
 
 
         </motion.section>

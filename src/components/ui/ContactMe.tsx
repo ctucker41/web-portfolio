@@ -20,7 +20,7 @@ const ContactMe = () => {
                     <br /><br />
                     All trademarks are property of their respective owners.
                     <br />
-                    <a href="/trademarks" className="underline">Trademarks Notice</a>
+                    <a href="/trademarks" className="underline" draggable={false}>Trademarks Notice</a>
                 </div>
 
 
@@ -31,25 +31,25 @@ const ContactMe = () => {
 
                 <div className="flex gap-1.5 md:gap-4 text-white justify-center">
 
-                    <Link href="mailto:ctuckercareers@yahoo.com" target="_blank">
+                    <Link href="mailto:ctuckercareers@yahoo.com" target="_blank" draggable={false}>
                         <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaEnvelope />
                         </Button>
                     </Link>
 
-                    <Link href="https://github.com/ctucker41" target="_blank">
+                    <Link href="https://github.com/ctucker41" target="_blank" draggable={false}>
                         <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaGithub />
                         </Button>
                     </Link>
 
-                    <Link href="https://www.linkedin.com/in/christian-tucker-55b423196/" target="_blank">
+                    <Link href="https://www.linkedin.com/in/christian-tucker-55b423196/" target="_blank" draggable={false}>
                         <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaLinkedin />
                         </Button>
                     </Link>
 
-                    <Link href="https://x.com/ctuckercareers" target="_blank">
+                    <Link href="https://x.com/ctuckercareers" target="_blank" draggable={false}>
                         <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaTwitter />
                         </Button>
@@ -58,7 +58,7 @@ const ContactMe = () => {
             </div>
 
                 <div className="flex justify-end items-center">
-                    <img src="/social.svg" alt="Social Media Photo" className="w-20 h-20 md:w-32 md:h-32" />
+                    <img src="/social.svg" alt="Social Media Photo" draggable={false} className="w-20 h-20 md:w-32 md:h-32" />
                 </div>
             </footer>
         </motion.div>

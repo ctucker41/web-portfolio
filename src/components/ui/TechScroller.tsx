@@ -89,6 +89,7 @@ export default function TechScroller() {
                             <img
                                 src={tech.logo}
                                 alt={tech.name}
+                                draggable={false}
                                 className="w-6 h-6 md:w-12 md:h-12 mb-2"
                             />
                             <span>{tech.name}</span>

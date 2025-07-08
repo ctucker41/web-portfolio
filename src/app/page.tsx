@@ -35,7 +35,7 @@ export default function Home() {
           <header className="mt-8 w-full flex flex-col md:flex-row justify-center relative md:min-h-[220px] 2xl:min-h-[400px]">
 
               <div
-                  className="fixed bottom-1 sm:bottom-auto right-2 sm:right-auto sm:top-4 sm:left-4 bg-yellow-200 text-yellow-800 text-lg px-3 py-1 rounded shadow-lg z-50">
+                  className="fixed bottom-1 sm:bottom-auto right-2 sm:right-auto sm:top-4 sm:left-4 bg-yellow-200 text-yellow-800 text-lg px-3 py-1 rounded shadow-lg z-50 select-none">
                   🚧 Work in Progress
               </div>
 
