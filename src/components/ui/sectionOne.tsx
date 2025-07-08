@@ -7,14 +7,14 @@ import { Card } from "@/components/ui/card";
 
 export default function SectionOne() {
     return (
-        <div className="mt-48 md:mt-80 md:ml-48 md:mr-48 flex flex-col md:flex-row justify-center items-center">
+        <div className="mt-48 xl:mt-80 md:ml-48 md:mr-48 flex flex-col md:flex-row justify-center items-center">
 
             <motion.div
                 initial={{ opacity: 0, y: -50}}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}
             >
-            <Card className="p-8 w-[90%] mx-auto md:h-[1000px] md:w-[600px] bg-gray-900 border-slate-600 border-[1px] flex flex-col items-center">
+            <Card className="p-8 w-[90%] mx-auto md:h-[1000px] md:w-[550px] bg-gray-900 border-slate-600 border-[1px] flex flex-col items-center">
 
                 <h2 className="text-xl  md:text-3xl flex justify-center items-center text-purple-300 font-bold">Planned Projects</h2>
                 <p className="mt-4 md:mt-16 flex flex-row text-white text-xs md:text-lg leading-relaxed indent-6">
@@ -60,7 +60,7 @@ export default function SectionOne() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}
                 >
-                <Card className="p-8 w-[90%] mx-auto flex flex-col md:w-[800px] md:h-[450px] bg-gray-900 border-slate-600 border-[1px]">
+                <Card className="p-8 w-[90%] mx-auto flex flex-col md:w-[750px] md:h-[450px] bg-gray-900 border-slate-600 border-[1px]">
 
                     <h2 className="text-xl md:text-3xl flex justify-center items-center text-purple-300 font-bold">My Goals</h2>
                     <p className="mt-4 md:mt-6 text-white text-xs md:text-lg leading-relaxed indent-8">
@@ -86,7 +86,7 @@ export default function SectionOne() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}
                     >
-                <Card className="p-8 w-[90%] mx-auto flex flex-col md:w-[800px] md:h-[450px] bg-gray-900 border-slate-600 border-[1px]">
+                <Card className="p-8 w-[90%] mx-auto flex flex-col md:w-[750px] md:h-[450px] bg-gray-900 border-slate-600 border-[1px]">
 
                     <h2 className="text-xl  md:text-3xl flex justify-center items-center text-purple-300 font-bold">What I&apos;m Learning</h2>
                     <p className="mt-4 md:mt-6 text-white text-xs md:text-lg leading-relaxed indent-8">
