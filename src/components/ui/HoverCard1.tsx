@@ -81,7 +81,7 @@ export default function HoverCard1() {
                     content={
                         <>
                             <div className="flex items-center gap-3">
-                                <img src="/.svg" alt="Kali Linux" className="w-4 h-4" />
+                                <img src="/kalilinux.svg" alt="Kali Linux" className="w-4 h-4" />
                                 <span className="text-sm">Kali Linux</span>
                             </div>
 
@@ -96,14 +96,10 @@ export default function HoverCard1() {
                             </div>
 
                             <div className="flex items-center gap-3">
-                                <img src="/.svg" alt="OSINT Framework" className="w-4 h-4" />
+                                <img src="/osint.svg" alt="OSINT Framework" className="w-4 h-4" />
                                 <span className="text-sm">OSINT Framework</span>
                             </div>
-
-                            <div className="flex items-center gap-3">
-                                <img src="/.svg" alt="Hashcat" className="w-4 h-4" />
-                                <span className="text-sm">Hashcat</span>
-                            </div>
+                            
                         </>
                     } />
             </div>

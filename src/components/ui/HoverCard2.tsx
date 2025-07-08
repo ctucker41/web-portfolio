@@ -76,27 +76,27 @@ export default function HoverCard1() {
                         content={
                             <>
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="Visual Studio" className="w-4 h-4" />
+                                    <img src="/vscode.svg" alt="Visual Studio" className="w-4 h-4" />
                                     <span className="text-sm">Visual Studio</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="PyCharm" className="w-4 h-4" />
+                                    <img src="/pycharm.svg" alt="PyCharm" className="w-4 h-4" />
                                     <span className="text-sm">PyCharm</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="WebStorm" className="w-4 h-4" />
+                                    <img src="/webstorm.svg" alt="WebStorm" className="w-4 h-4" />
                                     <span className="text-sm">WebStorm</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="CLion" className="w-4 h-4" />
+                                    <img src="/clion.svg" alt="CLion" className="w-4 h-4" />
                                     <span className="text-sm">CLion</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/.svg" alt="RubyMine" className="w-4 h-4" />
+                                    <img src="/rubymine.svg" alt="RubyMine" className="w-4 h-4" />
                                     <span className="text-sm">RubyMine</span>
                                 </div>
 
