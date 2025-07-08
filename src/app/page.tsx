@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import AnimatedBackground from "../components/background/animatedbackground";
-import Header from "@/components/ui/header";
 import TopRightMenu from "@/components/ui/TopRightMenu";
 import TopLeftAvatar from "@/components/ui/TopLeftAvatar";
 import IntroText from "@/components/ui/IntroText";
@@ -42,9 +41,8 @@ export default function Home() {
               </div>
 
 
-              <Header/>
-              <TopRightMenu/>
               <IntroText />
+              <TopRightMenu/>
               <TopLeftAvatar/>
 
 

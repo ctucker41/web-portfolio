@@ -1,12 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-
+import AnimatedText from "@/components/ui/AnimatedText";
+import VerticalTechScroller from "@/components/ui/VerticalTechScroller";
 
 export default function IntroText() {
     const heyText = "Hey!";
 
     return (
+        <>
+        <AnimatedText />
+        <VerticalTechScroller />
+
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -57,6 +62,6 @@ export default function IntroText() {
                 {"I'm Christian, a student developer based in Orlando, FL"}
             </motion.span>
         </motion.div>
-
+</>
     );
 }
