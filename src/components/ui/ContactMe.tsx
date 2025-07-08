@@ -15,12 +15,12 @@ const ContactMe = () => {
 
             <footer id="contact" className="grid grid-cols-3 md:items-center w-full mt-80 min-h-[150px] gap-4 px-6 bg-gray-900 text-white">
 
-                <div className="text-[10px] md:text-sm text-left mt-24 md:mt-0 select-none">
+                <div className="text-[10px] md:text-xs xl:text-sm text-left mr-4 mt-5 md:mt-0 select-none">
                     &copy; 2025 Christian Tucker
                     <br /><br />
                     All trademarks are property of their respective owners.
                     <br />
-                    <a href="/trademarks" className="underline">Trademarks notice</a>
+                    <a href="/trademarks" className="underline">Trademarks Notice</a>
                 </div>
 
 
@@ -58,7 +58,7 @@ const ContactMe = () => {
             </div>
 
                 <div className="flex justify-end items-center">
-                    <img src="/social.svg" alt="Social Media Photo" className="w-28 h-28 md:w-32 md:h-32" />
+                    <img src="/social.svg" alt="Social Media Photo" className="w-20 h-20 md:w-32 md:h-32" />
                 </div>
             </footer>
         </motion.div>

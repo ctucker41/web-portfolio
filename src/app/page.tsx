@@ -13,7 +13,6 @@ import Resume from "@/components/ui/Resume"
 
 
 
-// Replace some of the bland logos in the tech scroller with better colorful ones
 // Figure out why and fix the text in Experience carousel turns white during hover transition
 // In SectionOne, the images for Planned Projects are not inline the way the icons in the other cards are, try to find a fix
 // Fix up the length of the scroll on the tech scroller for mobile screens
