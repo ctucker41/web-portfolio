@@ -1,6 +1,6 @@
 # Christian Tucker's Portfolio Website
 
-![Work in Progress](https://img.shields.io/badge/status-WIP-yellow)
+![Status](https://img.shields.io/badge/status-Active-brightgreen)
 
 ---
 
