@@ -24,14 +24,15 @@ export default function HoverCard1() {
                         className="w-[45%]"
                         content={
                             <>
+
                                 <div className="flex items-center gap-3">
-                                    <img src="/git.svg" alt="Git" className="w-4 h-4" />
-                                    <span className="text-sm">Git</span>
+                                    <img src="/postgreSQL.svg" alt="PostgreSQL" className="w-4 h-4" />
+                                    <span className="text-sm">PostgreSQL</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/github.svg" alt="Github" className="w-4 h-4" />
-                                    <span className="text-sm">Github</span>
+                                    <img src="/expressjs.svg" alt="Express.js" className="w-4 h-4" />
+                                    <span className="text-sm">Express.js</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
@@ -65,6 +66,16 @@ export default function HoverCard1() {
                                 </div>
 
                                 <div className="flex items-center gap-3">
+                                    <img src="/git.svg" alt="Git" className="w-4 h-4" />
+                                    <span className="text-sm">Git</span>
+                                </div>
+
+                                <div className="flex items-center gap-3">
+                                    <img src="/github.svg" alt="Github" className="w-4 h-4" />
+                                    <span className="text-sm">Github</span>
+                                </div>
+
+                                <div className="flex items-center gap-3">
                                     <img src="/aws.svg" alt="AWS" className="w-4 h-4" />
                                     <span className="text-sm">AWS</span>
                                 </div>
@@ -75,6 +86,11 @@ export default function HoverCard1() {
                         className="w-[45%]"
                         content={
                             <>
+                                <div className="flex items-center gap-3">
+                                    <img src="/postman.svg" alt="Postman" className="w-4 h-4" />
+                                    <span className="text-sm">Postman</span>
+                                </div>
+
                                 <div className="flex items-center gap-3">
                                     <img src="/vscode.svg" alt="Visual Studio" className="w-4 h-4" />
                                     <span className="text-sm">Visual Studio</span>

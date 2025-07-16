@@ -22,13 +22,13 @@ export default function ExperienceCard2() {
                         content={
                             <>
                                 <div className="flex items-center gap-3">
-                                    <img src="/git.svg" alt="Git" draggable={false} className="w-6 h-6" />
-                                    <span className="text-lg">Git</span>
+                                    <img src="/postgreSQL.svg" alt="PostgreSQL" draggable={false} className="w-6 h-6" />
+                                    <span className="text-lg">PostgreSQL</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
-                                    <img src="/github.svg" alt="Github" draggable={false} className="w-6 h-6" />
-                                    <span className="text-lg">Github</span>
+                                    <img src="/expressjs.svg" alt="Express.js" draggable={false} className="w-6 h-6" />
+                                    <span className="text-lg">Express.js</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
@@ -62,6 +62,16 @@ export default function ExperienceCard2() {
                                 </div>
 
                                 <div className="flex items-center gap-3">
+                                    <img src="/git.svg" alt="Git" draggable={false} className="w-6 h-6" />
+                                    <span className="text-lg">Git</span>
+                                </div>
+
+                                <div className="flex items-center gap-3">
+                                    <img src="/github.svg" alt="Github" draggable={false} className="w-6 h-6" />
+                                    <span className="text-lg">Github</span>
+                                </div>
+
+                                <div className="flex items-center gap-3">
                                     <img src="/aws.svg" alt="AWS" draggable={false} className="w-6 h-6" />
                                     <span className="text-lg">AWS</span>
                                 </div>
@@ -74,6 +84,11 @@ export default function ExperienceCard2() {
                         title="Software"
                         content={
                             <>
+                                <div className="flex items-center gap-3">
+                                    <img src="/postman.svg" alt="Postman" draggable={false} className="w-6 h-6" />
+                                    <span className="text-lg">Postman</span>
+                                </div>
+
                                 <div className="flex items-center gap-3">
                                     <img src="/vscode.svg" alt="Visual Studio Code" draggable={false} className="w-6 h-6" />
                                     <span className="text-lg">VS Code</span>

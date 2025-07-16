@@ -81,8 +81,13 @@ export default function HoverCard1() {
                     content={
                         <>
                             <div className="flex items-center gap-3">
-                                <img src="/kalilinux.svg" alt="Kali Linux" className="w-4 h-4" />
-                                <span className="text-sm">Kali Linux</span>
+                                <img src="/JWT.svg" alt="JSON Web Tokens" className="w-4 h-4" />
+                                <span className="text-sm">JSON Web Tokens (JWT)</span>
+                            </div>
+
+                            <div className="flex items-center gap-3">
+                                <img src="/bcrypt.svg" alt="bcrypt" className="w-4 h-4" />
+                                <span className="text-sm">bcrypt</span>
                             </div>
 
                             <div className="flex items-center gap-3">
@@ -99,7 +104,12 @@ export default function HoverCard1() {
                                 <img src="/osint.svg" alt="OSINT Framework" className="w-4 h-4" />
                                 <span className="text-sm">OSINT Framework</span>
                             </div>
-                            
+
+                            <div className="flex items-center gap-3">
+                                <img src="/kalilinux.svg" alt="Kali Linux" className="w-4 h-4" />
+                                <span className="text-sm">Kali Linux</span>
+                            </div>
+
                         </>
                     } />
             </div>

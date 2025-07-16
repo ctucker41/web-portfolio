@@ -80,8 +80,13 @@ export default function ExperienceCard1() {
                         content={
                             <>
                                 <div className="flex items-center gap-3">
-                                    <img src="/kalilinux.svg" alt="Kali Linux" draggable={false} className="w-6 h-6" />
-                                    <span className="text-lg">Kali Linux</span>
+                                    <img src="/JWT.svg" alt="JSON Web Tokens" draggable={false} className="w-6 h-6" />
+                                    <span className="text-lg">JSON Web Tokens (JWT)</span>
+                                </div>
+
+                                <div className="flex items-center gap-3">
+                                    <img src="/bcrypt.svg" alt="bcrypt" draggable={false} className="w-6 h-6" />
+                                    <span className="text-lg">bcrypt</span>
                                 </div>
 
                                 <div className="flex items-center gap-3">
@@ -97,6 +102,11 @@ export default function ExperienceCard1() {
                                 <div className="flex items-center gap-3">
                                     <img src="/osint.svg" alt="OSINT Framework" draggable={false} className="w-6 h-6" />
                                     <span className="text-lg">OSINT Framework</span>
+                                </div>
+
+                                <div className="flex items-center gap-3">
+                                    <img src="/kalilinux.svg" alt="Kali Linux" draggable={false} className="w-6 h-6" />
+                                    <span className="text-lg">Kali Linux</span>
                                 </div>
 
                             </>
