@@ -33,7 +33,7 @@ const Resume = () => {
 
             <div className="flex items-center gap-3">
                 <Link
-                    href="/Christian_Tucker_Resume.pdf"
+                    href="/Christian_Tucker_SWE.pdf"
                     draggable={false}
                     className="text-white bg-purple-600 hover:bg-purple-700 font-semibold px-10 py-3 rounded-md transition h-[48px] flex items-center"
                 >
@@ -45,8 +45,8 @@ const Resume = () => {
                     className="text-white bg-purple-600 hover:bg-purple-700 h-[48px] w-[48px]"
                 >
                     <Link
-                        href="/Christian_Tucker_Resume.pdf"
-                        download="Christian_Tucker_Resume.pdf"
+                        href="/Christian_Tucker_SWE.pdf"
+                        download="Christian_Tucker_SWE.pdf"
                         target="_blank"
                         draggable={false}
                     >
