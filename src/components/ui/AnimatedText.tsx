@@ -3,6 +3,9 @@
 import React, {useEffect} from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 
+// I used this animated text file for my intro text previously, keeping it as an outdated code file in case I want to reimplement in the future.
+
+
 const AnimatedText = () => {
     const [scope, animate] = useAnimate();
 
