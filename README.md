@@ -1,44 +1,31 @@
-# Christian Tucker's Portfolio Website
+# Portfolio Website
 
-![Status](https://img.shields.io/badge/status-Active-brightgreen)
+A modern, responsive frontend web application built to explore component-driven UI design, animation, and performance using a contemporary React stack.
 
----
+This project focuses on clean layout composition, reusable components, and smooth user interactions rather than backend complexity.
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## Overview
 
----
-
-## About
-This is my personal portfolio website project showcasing some of my skills and experience as a student software developer.  
-Built with React, Next.js, Node.js, Tailwind CSS, TypeScript, Framer Motion and shadcn/ui components.  
-The website highlights technologies I'm proficient in and acts as a professional front for employers to learn more about me.  
-Source code managed with Git and hosted on GitHub.  
+The application is built with React and Next.js using TypeScript and Tailwind CSS. It includes animated UI elements, responsive layouts, and modular components designed to be easily extended and maintained.
 
 ---
 
 ## Features
-- Responsive design with smooth animations
-- Interactive tech stack scroller showcasing my skills
-- Sections for Experience, About Me, Resume and Contact info
+- Responsive layout optimized for desktop and mobile
+- Component-based architecture using React and TypeScript
+- UI animations implemented with Framer Motion
+- Utility-first styling with Tailwind CSS
+- Reusable UI primitives via shadcn/ui
 
 ---
 
 ## Tech Stack
 - React (TypeScript)
 - Next.js
-- Node.js
 - Tailwind CSS
-- Framer Motion for animations
-- Shadcn/UI library
-- Hosted on Vercel (when deployed)
-- Version control with Git and GitHub
+- Framer Motion
+- shadcn/ui
+- Vercel (deployment)
 
 ---
 
@@ -50,22 +37,3 @@ git clone https://github.com/ctucker41/web-portfolio.git
 cd web-portfolio
 npm install
 npm run dev
-```
-
----
-
-## Contributing
-Feel free to open issues or submit pull requests if you'd like to suggest improvements or fixes!
-
----
-
-## License
-This project is licensed under the MIT License — see the LICENSE file for details.
-
----
-
-## Contact
-Christian Tucker  
-Email: ctuckercareers@yahoo.com  
-GitHub: https://github.com/ctucker41  
-LinkedIn: www.linkedin.com/in/christian-tucker-55b423196  
