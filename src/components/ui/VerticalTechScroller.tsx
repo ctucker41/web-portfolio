@@ -18,13 +18,8 @@ export default function VerticalTechScroller() {
     const items = [...techItems, ...techItems];
 
     return (
-        <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.25, duration: 3 }}
-            className="relative md:absolute top-1 md:top-6 left-1/2 -translate-x-1/2 -translate-y-1/2 md:mt-20"
-        >
-        <div className="h-9 w-[18rem] overflow-hidden rounded-xl bg-gray-900 mx-auto mt-[70px] shadow-md select-none">
+
+        <div className="h-9 w-[18rem] overflow-hidden rounded-xl bg-gray-900 mx-auto mt-8 shadow-md select-none">
             <motion.div
                 className="flex flex-col items-center justify-center gap-4 py-4"
                 animate={{ y: ["0%", "-50%"] }}
@@ -42,6 +37,5 @@ export default function VerticalTechScroller() {
                 ))}
             </motion.div>
         </div>
-        </motion.div>
     );
 }
