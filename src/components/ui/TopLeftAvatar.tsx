@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { motion } from "framer-motion"
 import {
     Card,
     CardContent,
@@ -15,12 +14,7 @@ import Link from "next/link";
 export default function TopLeftAvatar() {
     return (
         <div className="relative md:absolute top-16 md:top-8 md:left-24">
-            <motion.div
-            initial={{ opacity: 0, y: -50}}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}
-            className="flex flex-col items-center"
-        >
+            <div className="flex flex-col items-center">
 
             <Avatar className="w-24 h-24 md:w-[200px] md:h-[200px]">
                 <AvatarImage src="/Headshot2.png" draggable={false} />
@@ -48,8 +42,7 @@ export default function TopLeftAvatar() {
                     </Link>
 
                 </div>
-
-        </motion.div>
+            </div>
         </div>
     );
 }

@@ -2,20 +2,14 @@
 
 import Link from "next/link"
 import React from "react";
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 
 
 const Resume = () => {
     return (
-        <motion.section
-            id="resume"
-            className="flex flex-col items-center mt-48 md:mt-80 px-4 scroll-mt-24 max-w-3xl mx-auto"
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}
-        >
+        <div id="resume" className="flex flex-col items-center mt-48 md:mt-80 px-4 scroll-mt-24 max-w-3xl mx-auto">
+
             <h2 className="text-xl md:text-3xl font-bold text-white mb-6 flex items-center">
                 <img
                     src="/resume.svg"
@@ -64,7 +58,7 @@ const Resume = () => {
             <img src="/textmessage.svg" alt="Texting Image" draggable={false} className="w-full h-60 w-60 mt-28 md:mt-48" />
 
 
-        </motion.section>
+        </div>
     );
 };
 

@@ -21,10 +21,10 @@ import Resume from "@/components/ui/Resume"
 
 
 export default function Home() {
-    useEffect(() => {
+    /* useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
+*/
   return (
       <div className="relative z-10 min-h-screen">
 

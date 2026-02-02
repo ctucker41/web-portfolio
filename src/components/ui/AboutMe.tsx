@@ -3,15 +3,10 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { motion } from "framer-motion";
 
 const AboutMe = () => {
     return (
         <section className="flex justify-center items-center mt-80 px-4">
-            <motion.div
-                initial={{ opacity: 0, y: -50}}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}>
 
             <Card id="about" className="relative bg-gray-900 border border-slate-600 scroll-mt-24 max-w-3xl w-full p-2 md:p-8">
 
@@ -42,7 +37,6 @@ const AboutMe = () => {
                     </p>
                 </CardContent>
             </Card>
-            </motion.div>
         </section>
     );
 };

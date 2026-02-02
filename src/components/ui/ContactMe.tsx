@@ -1,17 +1,12 @@
 "use client";
 
-import { motion } from "framer-motion";
 import {Button} from "@/components/ui/button";
-import {FaGithub, FaLinkedin, FaTwitter, FaEnvelope} from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
 import Link from "next/link";
 import React from "react";
 
 const ContactMe = () => {
     return (
-        <motion.div
-            initial={{ opacity: 0, y: -50}}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: "easeOut", delay: 5.5 }}>
 
             <footer id="contact" className="grid grid-cols-3 md:items-center w-full mt-80 min-h-[150px] gap-4 px-6 bg-gray-900 text-white">
 
@@ -49,11 +44,6 @@ const ContactMe = () => {
                         </Button>
                     </Link>
 
-                    <Link href="https://x.com/ctuckercareers" target="_blank" draggable={false}>
-                        <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
-                            <FaTwitter />
-                        </Button>
-                    </Link>
                 </div>
             </div>
 
@@ -61,7 +51,6 @@ const ContactMe = () => {
                     <img src="/social.svg" alt="Social Media Photo" draggable={false} className="w-20 h-20 md:w-32 md:h-32" />
                 </div>
             </footer>
-        </motion.div>
     );
 };
 
