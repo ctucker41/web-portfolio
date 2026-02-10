@@ -12,8 +12,6 @@ import ContactMe from "@/components/ui/ContactMe"
 import Resume from "@/components/ui/Resume"
 
 
-// Finish the Trademarks page, go through each logo and find the trademark owner and policy
-
 
 export default function Home() {
     useEffect(() => {
