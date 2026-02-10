@@ -73,7 +73,7 @@ export default function TechScroller() {
     return (
         <div
             ref={scrollerRef}
-            className="overflow-hidden w-full py-4 bg-gray-900 rounded-xl mt-8 select-none"
+            className="overflow-hidden w-full py-4 bg-gray-900 rounded-xl mt-20 select-none"
         >
             <motion.div
                 className="flex gap-4 md:gap-10 whitespace-nowrap px-4"

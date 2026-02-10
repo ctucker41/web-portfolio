@@ -6,7 +6,7 @@ import TopRightMenu from "@/components/ui/TopRightMenu";
 import TopLeftAvatar from "@/components/ui/TopLeftAvatar";
 import IntroText from "@/components/ui/IntroText";
 import SectionOne from "@/components/ui/sectionOne"
-import Skills from "@/components/ui/Skills"
+import Expertise from "@/components/ui/Expertise"
 import AboutMe from "@/components/ui/AboutMe"
 import ContactMe from "@/components/ui/ContactMe"
 import Resume from "@/components/ui/Resume"
@@ -44,7 +44,7 @@ export default function Home() {
           <main className="flex flex-col">
 
               <SectionOne/>
-              <Skills/>
+              <Expertise/>
               <AboutMe/>
               <Resume />
 

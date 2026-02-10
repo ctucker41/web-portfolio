@@ -15,7 +15,7 @@ export default function TopRightMenu() {
 
             <CardContent className="p-0 flex flex-wrap md:flex-nowrap flex-row items-center justify-center gap-4 w-full">
                 <Button variant="ghost" className="text-white text-xs md:text-md lg:text-lg px-2 md:px-6 py-3">
-                    <a href="#Skills" draggable={false}>
+                    <a href="#expertise" draggable={false}>
                     Expertise
                     </a>
                 </Button>
