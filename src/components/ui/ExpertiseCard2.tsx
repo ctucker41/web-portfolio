@@ -16,7 +16,7 @@ export default function ExpertiseCard2() {
                     </div>
 
                     <div className="flex items-center gap-3 mb-4">
-                        <img src="/.svg" alt="Express" className="w-4 h-4" />
+                        <img src="/expressjs.svg" alt="Express" className="w-4 h-4" />
                         <span className="lg:text-lg">Express</span>
                     </div>
 
