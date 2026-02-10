@@ -2,16 +2,14 @@
 
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiTypescript, SiFramer, SiVercel } from "react-icons/si";
+import { SiNextdotjs, SiTypescript, SiPostgresql } from "react-icons/si";
 
 const techItems = [
     { name: "Next.js", icon: <SiNextdotjs className="text-xl" /> },
     { name: "React", icon: <FaReact className="text-xl text-cyan-400" /> },
     { name: "TypeScript", icon: <SiTypescript className="text-xl text-blue-500" /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-xl text-sky-400" /> },
-    { name: "Framer Motion", icon: <SiFramer className="text-xl text-pink-500" /> },
-    { name: "Vercel", icon: <SiVercel className="text-xl" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-xl text-green-600" /> },
+    { name: "PostgreSQL", icon: <SiPostgresql className="text-xl text-violet-600" /> },
 ];
 
 export default function VerticalTechScroller() {
