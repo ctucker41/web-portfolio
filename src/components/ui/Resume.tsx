@@ -17,18 +17,13 @@ const Resume = () => {
                     draggable={false}
                     className="w-8 h-8 md:w-12 md:h-12 mr-3"
                 />
-                Take a look at my&nbsp;
-                <span className="font-bold text-purple-300">
-                    resume
-                </span>
+
+                <span className="font-bold text-purple-300">Resume</span>
+
             </h2>
             <p className="text-white text-center mb-8">
-                <span className="font-bold text-pink-700 text-2xl"> Valencia College </span><br />
-                Finishing up my&nbsp;
-                <span className="font-bold text-purple-300">Associates of Science </span>
-                in Computer Programming & Analysis<br /> <br />
-                Planning to pursue my&nbsp;<span className="font-bold text-purple-300">Bachelors of Applied Science </span>
-                in Computing Technology & Software Development<br />
+                Full-stack projects, backend API work, and automation scripting.<br /> <br />
+                View the PDF or download a copy.
             </p>
 
             <div className="flex items-center gap-3">
@@ -55,7 +50,7 @@ const Resume = () => {
                 </Button>
             </div>
 
-            <img src="/textmessage.svg" alt="Texting Image" draggable={false} className="w-full h-60 w-60 mt-28 md:mt-48" />
+            <img src="/textmessage.svg" alt="Texting Image" draggable={false} className="w-full h-56 w-56 mt-28 md:mt-48" />
 
 
         </div>
