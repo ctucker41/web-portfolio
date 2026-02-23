@@ -28,7 +28,7 @@ const ContactMe = () => {
 
                 <div className="flex gap-1.5 md:gap-4 text-white justify-center">
 
-                    <Link href="mailto:ctuckercareers@yahoo.com" target="_blank" aria-label="Email Christian"  draggable={false}>
+                    <Link href="mailto:christian.tucker.dev@gmail.com" target="_blank" aria-label="Email Christian"  draggable={false}>
                         <Button variant="outline" size="icon" className="bg-purple-600 hover:bg-purple-700 border-0 rounded-full mt-2 w-7 h-7 md:w-9 md:h-9">
                             <FaEnvelope />
                         </Button>
@@ -50,11 +50,11 @@ const ContactMe = () => {
 
                     <div className="flex justify-center mt-3 text-xs md:text-sm text-white/80">
                         <a
-                            href="mailto:ctuckercareers@yahoo.com"
+                            href="mailto:christian.tucker.dev@gmail.com"
                             className="underline underline-offset-4 hover:text-white"
                             draggable={false}
                         >
-                            ctuckercareers@yahoo.com
+                            christian.tucker.dev@gmail.com
                         </a>
                     </div>
 
